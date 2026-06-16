@@ -1,8 +1,8 @@
 ﻿using UnrealBuildTool;
 
-public class Temporary : ModuleRules
+public class TestCharacterData : ModuleRules
 {
-    public Temporary(ReadOnlyTargetRules Target) : base(Target)
+    public TestCharacterData(ReadOnlyTargetRules Target) : base(Target)
     {
         PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 

@@ -15,6 +15,7 @@
   </ItemGroup>
   <ItemGroup>
   <Compile Include="..\..\..\..\Plugins\Temporary\Source\Temoporary\Temporary.Build.cs"><Link>Plugins\Temporary\Source\Temoporary\Temporary.Build.cs</Link></Compile>
+  <Compile Include="..\..\..\..\Plugins\TestCharacterData\Source\TestCharacterData\TestCharacterData.Build.cs"><Link>Plugins\TestCharacterData\Source\TestCharacterData\TestCharacterData.Build.cs</Link></Compile>
   <Compile Include="..\..\..\..\Source\ModuleAndPlugin.Target.cs"><Link>Source\ModuleAndPlugin.Target.cs</Link></Compile>
   <Compile Include="..\..\..\..\Source\ModuleAndPluginEditor.Target.cs"><Link>Source\ModuleAndPluginEditor.Target.cs</Link></Compile>
   <Compile Include="..\..\..\..\Source\ModuleAndPlugin\ModuleAndPlugin.Build.cs"><Link>Source\ModuleAndPlugin\ModuleAndPlugin.Build.cs</Link></Compile>

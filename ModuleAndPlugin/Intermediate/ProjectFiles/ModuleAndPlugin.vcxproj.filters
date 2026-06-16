@@ -54,6 +54,39 @@
     <None Include="..\..\Plugins\Temporary\Temporary.uplugin">
       <Filter>Plugins\Temporary</Filter>
     </None>
+    <Filter Include="Plugins\TestCharacterData">
+      <UniqueIdentifier>{D61F2D51-03F2-3BE1-B203-A114C00F75C4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\TestCharacterData\TestCharacterData.uplugin">
+      <Filter>Plugins\TestCharacterData</Filter>
+    </None>
+    <Filter Include="Plugins\TestCharacterData\Source">
+      <UniqueIdentifier>{F244E28F-41FC-3A27-A0CD-42B825A47732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\TestCharacterData\Source\TestCharacterData">
+      <UniqueIdentifier>{7DB0C509-E7C6-32A6-9A2E-FEE00E42904F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\TestCharacterData\Source\TestCharacterData\TestCharacterData.Build.cs">
+      <Filter>Plugins\TestCharacterData\Source\TestCharacterData</Filter>
+    </None>
+    <ClCompile Include="..\..\Plugins\TestCharacterData\Source\TestCharacterData\TestCharacterData.cpp">
+      <Filter>Plugins\TestCharacterData\Source\TestCharacterData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\TestCharacterData\Source\TestCharacterData\TestCharacterData.h">
+      <Filter>Plugins\TestCharacterData\Source\TestCharacterData</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\TestCharacterData\Source\TestCharacterData\Private">
+      <UniqueIdentifier>{8FF67C25-A7C5-3143-91CC-8F73302E4674}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\TestCharacterData\Source\TestCharacterData\Private\CharacterDataPlug.cpp">
+      <Filter>Plugins\TestCharacterData\Source\TestCharacterData\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\TestCharacterData\Source\TestCharacterData\Public">
+      <UniqueIdentifier>{85FC71F8-498B-325E-9241-0C7D3F6B7DA2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\TestCharacterData\Source\TestCharacterData\Public\CharacterDataPlug.h">
+      <Filter>Plugins\TestCharacterData\Source\TestCharacterData\Public</Filter>
+    </ClCompile>
     <Filter Include="Source\ModuleAndPlugin">
       <UniqueIdentifier>{F7B809D6-C32F-3973-A495-3F3168B4B280}</UniqueIdentifier>
     </Filter>

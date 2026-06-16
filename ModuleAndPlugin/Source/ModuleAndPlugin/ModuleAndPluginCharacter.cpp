@@ -12,6 +12,7 @@
 #include "InputActionValue.h"
 #include "Test/Actor/TestActor.h"
 #include "Test/Data/CharacterData.h"
+#include "CharacterDataPlug.h"
 
 DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 
@@ -140,12 +141,23 @@ void AModuleAndPluginCharacter::BeginPlay()
 
 		UCharacterData* MyCharacterData = NewObject<UCharacterData>(this);
 
+		//캐릭터의 UCharacterData 정보 출력
 		if (GEngine && MyCharacterData)
 		{
-			FString OutputMessage = FString::Printf(TEXT("Data Loaded - Name: %s, Level: %d, HP: %d, ATK: %d")
+			FString OutputMessage = FString::Printf(TEXT("UCharacterData 데이터 로드 - Name: %s, Level: %d, HP: %d, ATK: %d")
 				, *MyCharacterData->CharacterName, MyCharacterData->Level, MyCharacterData->HP, MyCharacterData->ATK);
 
 			GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Yellow, OutputMessage);
+		}
+
+		UCharacterDataPlug* MyPluginData = NewObject<UCharacterDataPlug>(this);
+
+		if (MyPluginData && GEngine)
+		{
+			FString OutputMsg = FString::Printf(TEXT("UCharacterDataPlug 데이터 로드 - Name: %s, Level: %d, HP: %d, ATK: %d"),
+				*MyPluginData->CharacterName, MyPluginData->Level, MyPluginData->HP, MyPluginData->ATK);
+
+			GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Green, OutputMsg);
 		}
 	}
 }

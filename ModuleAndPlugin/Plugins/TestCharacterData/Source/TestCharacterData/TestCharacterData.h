@@ -3,7 +3,7 @@
 #include "CoreMinimal.h"
 #include "Modules/ModuleManager.h"
 
-class FTemporaryModule : public IModuleInterface
+class FTestCharacterDataModule : public IModuleInterface
 {
 public:
 	virtual void StartupModule() override;

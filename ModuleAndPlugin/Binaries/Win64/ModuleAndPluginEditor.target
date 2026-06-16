@@ -4836,6 +4836,18 @@
 		{
 			"Path": "$(ProjectDir)/Plugins/Temporary/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/TestCharacterData/Binaries/Win64/UnrealEditor-TestCharacterData.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/TestCharacterData/Binaries/Win64/UnrealEditor-TestCharacterData.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/TestCharacterData/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
 		}
 	],
 	"RuntimeDependencies": [
@@ -30570,6 +30582,10 @@
 		{
 			"Path": "$(ProjectDir)/Plugins/Temporary/Temporary.uplugin",
 			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/TestCharacterData/TestCharacterData.uplugin",
+			"Type": "UFS"
 		}
 	],
 	"BuildPlugins": [
@@ -30749,6 +30765,7 @@
 		"TcpMessaging",
 		"TemplateSequence",
 		"Temporary",
+		"TestCharacterData",
 		"TextureFormatOodle",
 		"ToolPresets",
 		"TraceUtilities",
