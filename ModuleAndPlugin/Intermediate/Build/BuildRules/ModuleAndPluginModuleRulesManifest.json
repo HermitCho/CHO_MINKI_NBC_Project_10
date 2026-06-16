@@ -1,0 +1,10 @@
+{
+	"SourceFiles": [
+		"D:\\UnrealEngine\\NBC_Project_10\\ModuleAndPlugin\\Source\\ModuleAndPlugin\\ModuleAndPlugin.Build.cs",
+		"D:\\UnrealEngine\\NBC_Project_10\\ModuleAndPlugin\\Source\\Test\\Test.Build.cs",
+		"D:\\UnrealEngine\\NBC_Project_10\\ModuleAndPlugin\\Plugins\\Temporary\\Source\\Temoporary\\Temporary.Build.cs",
+		"D:\\UnrealEngine\\NBC_Project_10\\ModuleAndPlugin\\Source\\ModuleAndPlugin.Target.cs",
+		"D:\\UnrealEngine\\NBC_Project_10\\ModuleAndPlugin\\Source\\ModuleAndPluginEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}
